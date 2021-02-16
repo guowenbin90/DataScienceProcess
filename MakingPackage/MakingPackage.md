@@ -1,6 +1,6 @@
 Following the instructions from the previous video, convert the modularized code into a Python package. 
 
-You can put your code into the 3a_python_package folder in the workspace. Inside the 3a_python_package folder, you'll need to create a few folders and files:
+You can put your code into the 3a_python_package folder, you'll need to create a few folders and files:
 * a setup.py file, which is required in order to use pip installcd 
 * a folder called 'distributions', which is the name of the Python package
 * inside the 'distributions' folder, you'll need the Gaussiandistribution.py file, Generaldistribution.py and an __init__.py file.
@@ -21,7 +21,7 @@ gaussian_one + gaussian_one
 
 etcetera...In other words, you can import and use the Gaussian class because the distributions package is now officially installed as part of your Python installation.
 
-If you get stuck, there's a solution in the 3b_answer_python_package folder.
+If you get stuck, there's a solution in the folder.
 
 If you want to install the Python package locally to your computer, you might want to set up a virtual environment first. A virtual environment is a siloed Python installation apart from your main Python installation. That way you can easily delete the virtual enviornment without affecting your Python installation.
 
